@@ -34,11 +34,11 @@ LiquidCrystal_I2C lcd(0x3F,16,2);
 
  ****************************************/
 
-const char *UBIDOTS_TOKEN = "BBFF-UJYY72S8bCVVoFDjpx6vaGzOggDq9X";  // Put here your Ubidots TOKEN
+const char *UBIDOTS_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx";  // Put here your Ubidots TOKEN
 
-const char *WIFI_SSID = "GNXS-2EC0D0";      // Put here your Wi-Fi SSID
+const char *WIFI_SSID = "your wifi name";      // Put here your Wi-Fi SSID
 
-const char *WIFI_PASS = "9629090034";      // Put here your Wi-Fi password
+const char *WIFI_PASS = "your wifi password";      // Put here your Wi-Fi password
 
 const char *DEVICE_LABEL = "PatientHealthMonitoring";   // Put here your Device label to which data  will be published
 
